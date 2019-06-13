@@ -1,0 +1,39 @@
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+.btn-toTop {
+    /* lai būtu vienā vietā uz ekrāna */
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    /* lai sākumā nav redzama */
+    display: none;
+    /* paceļam augšā no plakanās virsmas virs pārējiem elementiem, lai neviens cits elements neuzlīstu virsū */
+    z-index: 9999;
+}
+
+.teksts-uz-bildes {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    text-align:left;
+    /* color: red; */
+}
+
+.normalimage {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+
+.gads {
+    justify-content: left;
+    background-color: grey;
+}
+
+body {
+    /* background-image: url("https://picsum.photos/id/115/1500/1000/?blur"); */
+    /* background-color: grey; */
+   }
